@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/lge/sd4xx-common
+COMMON_PATH := device/lenovo/sd4xx-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
@@ -225,7 +225,7 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
--include device/lge/common/BoardConfigCommon.mk
+-include device/lenovo/common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/lge/sd4xx-common/BoardConfigVendor.mk
+-include vendor/lenovo/sd4xx-common/BoardConfigVendor.mk

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/lge/sd4xx-common
+COMMON_PATH := device/lenovo/sd4xx-common
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -250,4 +250,4 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/sd4xx-common/sd4xx-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/sd4xx-common/sd4xx-common-vendor.mk)
